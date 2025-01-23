@@ -9,6 +9,12 @@
 body {
     display: flex;
     justify-content: center;
+    background-image: url(/assets/bgOnd.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    background-color: #0a0a0a;
+    
 }
 
 .interFont {
@@ -30,13 +36,13 @@ body {
 .container2 {
     display: flex;
     flex-direction: column;
-    overflow-x: hidden;
-    background-color: #0a0a0a;
+    overflow-x: hidden; 
     justify-content: center;
     align-items: center;
-
-
+    
 }
+
+
 
 header {
     display: flex;
@@ -116,15 +122,22 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 11;
+    z-index: 16;
     height: 100px;
     width: 100vw;
-    background-color: #0a0a0a;
     box-shadow: 0px -20px 100px rgb(82, 0, 0); 
     color: #ffff;
     flex-grow: 1;
 }
 
+.footerHome {
+    background-color: #0a0a0a;
+}
+
+
+.footerPags {
+    background-color: #0a0a0ade;
+}
 
 .navbar ul li a:hover {
     color: #F13339;
@@ -184,14 +197,28 @@ footer {
     justify-content: center;
     align-items: center;
     z-index: 0;
-    height:1200px;
-    width: 100vw;
-    background-color: #0a0a0a;
+    height:  130%;
+    width: 100%;
     box-shadow: 0px -20px 100px rgb(82, 0, 0)  ;              
     color: #ffff;
     flex-grow: 1;
     position: absolute;
-    margin-bottom:-400px;
+    margin-bottom:-410px;
+}
+
+.shadow2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 120%;
+    width: 100%;
+    box-shadow: 0px -20px 100px rgb(82, 0, 0)  ;              
+    color: #ffff;
+    flex-grow: 1;
+    position: absolute;
+    margin-bottom:-410px;
+
 }
 
 article {
@@ -201,7 +228,6 @@ article {
     width: 1440px;
     margin: 10px;
     z-index: 1;
-    background-color: #0a0a0a;
     z-index: 1;
 }
 
@@ -225,12 +251,16 @@ article {
     margin-top: 100px;
     width: 768px;
     height: 432px;
-    
     border-radius: 20px;
+    z-index: 15;
     
 }
 
 
+.imgGrad {
+    margin: 20px;
+    z-index: 15;
+}
 
 
 
