@@ -1,9 +1,4 @@
-@media (max-width: 768px) {
-    body {
-        background-position: center;
-        background-size: cover; 
-    }
-
+@media (max-width: 768px) and (max-height: 824px) {
     .menu {
         align-items: center;
     }
@@ -19,7 +14,7 @@
     }
 
     .navbar ul li a {
-        font-size: 18px; 
+        font-size: 14px; 
         padding: 20px;
     }
 
@@ -27,30 +22,32 @@
         height: auto; 
         padding: 20px;
         text-align: center; 
-        margin-left: -90px;
+        height: 824px;
     }
 
     .imgHome img {
         width: 80%; 
         height: auto; 
+        margin-left: -200px;
     }
 
     .imgCap img {
         width: 100%; 
         max-width: none; 
         height: 50%;
-        margin-bottom: 350px;
+
     }
 
     .button-link {
-        top: auto;
+        top: 80px;
         left: auto;
         position: relative; 
         transform: none;
-        width: auto;
         padding: 10px 15px; 
         font-size: 16px;
         margin-left: 70px;
+        margin-top: 50px;
+
     }
 
     footer {
