@@ -35,9 +35,7 @@
     .imgCap img {
         width: 100%; 
         max-width: none; 
-        height: 572px;
-        margin-bottom: 30px;
-        
+        height: 572px;        
     }
 
     .button-link {
