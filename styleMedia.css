@@ -25,15 +25,17 @@
     }
 
     .imgHome img {
-        width: 80%; 
+        width: 100%; 
         height: auto; 
-        margin-left: -200px;
+        margin-left: -50px;
     }
+
+
 
     .imgCap img {
         width: 100%; 
         max-width: none; 
-        height: 60%;
+        height: 572px;
         margin-bottom: 30px;
         
     }
@@ -53,9 +55,13 @@
         font-size: 16px; 
         text-align: center;
         padding: 10px;
-        margin-bottom: 0;
-        position: relative;
+        width: 100%; /* Para garantir que o footer ocupe toda a largura */
+        position: fixed;
+        bottom: 0;
+        background-color: #0a0a0a; /* Adicione uma cor de fundo para destaque */
+        color: white; /* Ajuste da cor do texto */
     }
+    
 
     .text h1 {
         font-size: 22px; 
