@@ -22,6 +22,7 @@
         height: 80vh; 
         padding: 20px;
         text-align: center; 
+        overflow-x: hidden;
     }
 
     .imgHome img {
