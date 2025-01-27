@@ -1,4 +1,4 @@
-@media (max-width: 768px) and (max-height: 824px) {
+@media (max-width: 768px) and (max-height: 932px) {
     .menu {
         align-items: center;
     }
@@ -22,7 +22,8 @@
         height: auto; 
         padding: 20px;
         text-align: center; 
-        height: 824px;
+        min-height: 700px;
+        max-height: 932px;
     }
 
     .imgHome img {
@@ -39,14 +40,13 @@
     }
 
     .button-link {
-        top: 80px;
+        top: 30px;
         left: auto;
         position: relative; 
         transform: none;
         padding: 10px 15px; 
         font-size: 16px;
         margin-left: 70px;
-        margin-top: 50px;
 
     }
 
