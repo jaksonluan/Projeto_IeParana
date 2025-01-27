@@ -19,11 +19,9 @@
     }
 
     .home {
-        height: auto; 
+        height: 572px; 
         padding: 20px;
         text-align: center; 
-        min-height: 700px;
-        max-height: 932px;
     }
 
     .imgHome img {
