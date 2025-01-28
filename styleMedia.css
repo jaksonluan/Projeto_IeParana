@@ -20,14 +20,12 @@
 
     .home {
         height: 80vh; 
-
         text-align: center; 
         overflow-x: hidden;
     }
 
     .imgHome img {
         width: 100%; 
-        height: auto; 
         margin-left: -50px;
     }
 
