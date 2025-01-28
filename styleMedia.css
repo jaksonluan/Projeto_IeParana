@@ -27,6 +27,7 @@
     .imgHome img {
         width: 100%; 
         margin-left: -50px;
+        height: 80%;
     }
 
 
@@ -76,5 +77,25 @@
 
     .navbar ul li a:hover::after {
         width: 0; 
+    }
+
+    .wpp a{
+        font-size: 12px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .copyF {
+        font-size: 12px;
+        margin: 0;
+    }
+
+    .socialMedia a img{
+        width: 25px;
+        height: 25px;
+    }
+
+    .socialMedia {
+        justify-content: space-between;
     }
 }
