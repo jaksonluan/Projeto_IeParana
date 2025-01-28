@@ -52,12 +52,11 @@
     footer {
         font-size: 16px; 
         text-align: center;
-        padding: 10px;
-        width: 100%; /* Para garantir que o footer ocupe toda a largura */
-        position: fixed;
+        padding: 20px;
+        width: 100%; 
         bottom: 0;
-        background-color: #0a0a0a; /* Adicione uma cor de fundo para destaque */
-        color: white; /* Ajuste da cor do texto */
+        background-color: #0a0a0a; 
+        color: white; 
     }
     
 
@@ -79,10 +78,13 @@
         width: 0; 
     }
 
-    .wpp a{
+    .wpp a {
         font-size: 12px;
         padding: 0;
         margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 
     .copyF {
@@ -97,5 +99,12 @@
 
     .socialMedia {
         justify-content: space-between;
+        align-items: center;
+    }
+
+    .imgMedia img{
+        padding: 0;
+        width: 25px;
+        height: 25px;
     }
 }

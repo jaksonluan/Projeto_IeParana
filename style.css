@@ -295,6 +295,7 @@ article {
     font-size: 16px;
     align-items: center;
     margin-bottom: 10px;
+    justify-content: center;
 }
 .socialMedia a img {
     width: 30px;
