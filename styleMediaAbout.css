@@ -18,18 +18,21 @@
         padding: 20px;
     }
 
-    .sectCAP {
-        width: 50%; 
-        height: auto;
+    .sectCAP2 img {
+        max-width: 100px;
     }
 
     article { 
         display: flex;
-        padding-left: 200px ;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
     }
     .text {
-        width: 40%;
+        width: 30%;   
         margin-left: 150px;
+        margin-right: 150px;
     }
 
     .text p {
@@ -38,30 +41,27 @@
 
     .text h1 {
         font-size: 24px; 
-        padding-bottom: 20px;
     }
 
     .imgArt { 
         display: flex;
-        align-items: center;
-        width: 100%;
+        margin-top: 0;
+        justify-content: center;
+        width: 60%;
     }
 
     .imgArt img {
         width: 50%;
         height: auto;
         border-radius: 10px;
-        margin-right: 220px;
+        margin-top: 0;
+        
     }
 
     footer {
         font-size: 14px; 
         height: auto;
         padding: 20px;
-    }
-
-    .mediaAboutp {
-        margin-bottom: 70px;
     }
 
 }
